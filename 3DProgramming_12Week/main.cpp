@@ -193,7 +193,7 @@ void Update()
 
         translateNum += 0.001f;
 
-
+         
         for (int i = 0; i < 360; i++)
         {
             transformedCircle[i].pos = circle[i].pos * transform.rotation * transform.scale * transform.translate;
