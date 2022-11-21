@@ -786,7 +786,7 @@ public:
 			this->vec[0][3] = vec4[0][3] - ref.vec4[0][3];
 
 			this->vec4[0][0] = vec[0][0];
-			this->vec4[0][1] = vec[0][1];
+			this->vec4[0][1] = vec[0][1]; 
 			this->vec4[0][2] = vec[0][2];
 			this->vec4[0][3] = vec[0][3];
 		}
